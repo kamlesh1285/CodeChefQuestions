@@ -1,16 +1,15 @@
-// Parity
+// Janmansh and Assignments
 
 #include <iostream>
 using namespace std;
 
 int main() {
-	// your code goes here
     int T;
     cin>>T;
     while (T--) {
-        int N;
-        cin>>N;
-        if (N % 2 == 0) {
+        int X;
+        cin>>X;
+        if (10-X>=3) {
             cout<<"YES"<<endl;
         }
         else {
